@@ -65,4 +65,3 @@ with open(file=export_csv_file, mode='w', newline='', encoding='utf-8-sig') as f
     writer = csv.DictWriter(f, headers)
     writer.writeheader()
     writer.writerows([flatten_key(x) for x in filter_data])
-
