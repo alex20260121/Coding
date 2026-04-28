@@ -1,23 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""
-模块: auth
-描述: 此模块提供基础的用户授权功能, 返回一个授权token, 但需要注意该token的时效为1分钟.
-
-作者: Fansihong
-创建时间: 2026/04/21
-初始版本: v1.0.0
-"""
-
 import requests
 
 class GetToken:
-	"""
-	该类初始化实例时需要传入
-	:参数: username: CloudOS平台登陆的用户名.
-	:参数: password: CloudOS平台登陆用户名的密码.
-	"""
 	def __init__(self, username, password):
 		self.username = username
 		self.password = password
