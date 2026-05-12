@@ -3,10 +3,9 @@
 # -*- coding: utf-8 -*-
 
 """
-CloudOS平台服务组件台账导出脚本.
+离线导出CloudOS平台Reids集群信息, 需要将在线抓取的信息存储到CSV目录下.
 使用方法:
-    cluster_exporter.py serverName
-    serverName: [mysql], [redis], [mongodb], [rabbitmq], [kafka], [elasticsearch]
+    python3 cluster_exporter.py redis
 """
 
 import os
