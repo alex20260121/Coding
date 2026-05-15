@@ -1,0 +1,4449 @@
+[
+    {
+        "id": "b89724ec-ae4a-42ef-b494-5ddd2a0c3e2a",
+        "name": "es1280011",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 11,
+        "nodeNumber": 10,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "6fee0416-6e3d-45b6-9a71-42a4ab1e9a4f",
+        "neutronManagementNetworkName": "jyt-131-0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.131.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "9013c17c-7cf3-4c35-bcf2-ef458c35f92c",
+                "name": "elasticsearch-core-1-1e590",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280011-elasticsearch-core-1-1e590-2",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "91ce4ab9-c482-4d1f-998f-2add94328db3",
+                        "internalIp": "10.148.131.170",
+                        "managementIp": "10.148.131.170",
+                        "id": "38c368e5-350c-452a-9daa-01be6dbc4cde"
+                    },
+                    {
+                        "instanceName": "es1280011-elasticsearch-core-1-1e590-6",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "50170293-b736-4eeb-a08f-3aeeab84dfaa",
+                        "internalIp": "10.148.131.61",
+                        "managementIp": "10.148.131.61",
+                        "id": "ae911bd9-3970-41cf-a614-f130d48c9080"
+                    },
+                    {
+                        "instanceName": "es1280011-elasticsearch-core-1-1e590-3",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "d6974c7a-8a09-45e8-a06f-825b37fc36c7",
+                        "internalIp": "10.148.131.243",
+                        "managementIp": "10.148.131.243",
+                        "id": "156daddc-1505-4559-990f-85a69c6696c0"
+                    },
+                    {
+                        "instanceName": "es1280011-elasticsearch-core-1-1e590-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "142417ab-efe3-4eef-ab24-f41cbbd32165",
+                        "internalIp": "10.148.131.114",
+                        "managementIp": "10.148.131.114",
+                        "id": "c6ace8b9-9814-4c52-b85a-21f21318a54c"
+                    },
+                    {
+                        "instanceName": "es1280011-elasticsearch-core-1-1e590-4",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "015a33f2-6cf9-4f9f-8c0e-db2164503096",
+                        "internalIp": "10.148.131.90",
+                        "managementIp": "10.148.131.90",
+                        "id": "504bfc32-df6d-4893-bae7-98d522dc127e"
+                    },
+                    {
+                        "instanceName": "es1280011-elasticsearch-core-1-1e590-1",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "560cd1d2-9f1d-422c-876b-4386465a0792",
+                        "internalIp": "10.148.131.191",
+                        "managementIp": "10.148.131.191",
+                        "id": "486dadb9-ff46-4706-9ad1-195cd9022c4a"
+                    },
+                    {
+                        "instanceName": "es1280011-elasticsearch-core-1-1e590-5",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "5ab91dcb-a311-447c-96f4-fad3fd10759c",
+                        "internalIp": "10.148.131.236",
+                        "managementIp": "10.148.131.236",
+                        "id": "75b35939-0aa8-42ea-a9e0-c5ab00c3460d"
+                    },
+                    {
+                        "instanceName": "es1280011-elasticsearch-core-1-1e590-7",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "1a9bf901-61c2-4d59-8b19-1ba132439020",
+                        "internalIp": "10.148.131.78",
+                        "managementIp": "10.148.131.78",
+                        "id": "ed4c1c63-0fe9-4f16-8dcd-2b5435597a67"
+                    }
+                ],
+                "nodeGroupTemplateId": "a001200a-ce34-449b-b852-5bbc998c3c28",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 8,
+                "flavorId": "df42f2ea-2dc1-4cee-968c-75b9db49068a",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 18,
+                "ram": 65536,
+                "disk": 128
+            },
+            {
+                "id": "d5a5dc94-0649-4beb-8b74-9a7729652736",
+                "name": "elasticsearch-kibana-1-8ff44",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280011-elasticsearch-kibana-1-8ff44-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "bdc2b687-94f6-4850-8862-752942e998a6",
+                        "internalIp": "10.148.131.72",
+                        "managementIp": "10.148.131.72",
+                        "id": "1b7acca3-6f98-447c-b1ef-652043127ae3"
+                    }
+                ],
+                "nodeGroupTemplateId": "5916d11a-b61e-4ed3-8d52-897e06fda38d",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "c21b9ca8-dea6-4272-99b0-11b606ae716a",
+                "name": "elasticsearch-master-2-81a26",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280011-elasticsearch-master-2-81a26-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "0f8f6a75-ba8a-4224-a03e-12aea0d1469f",
+                        "internalIp": "10.148.131.248",
+                        "managementIp": "10.148.131.248",
+                        "id": "1589b093-bfb0-4b50-89e0-726316956cb3"
+                    }
+                ],
+                "nodeGroupTemplateId": "cbfde820-e452-4f36-9be4-8f36200b065e",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "df42f2ea-2dc1-4cee-968c-75b9db49068a",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 18,
+                "ram": 65536,
+                "disk": 128
+            },
+            {
+                "id": "fd061107-5391-40d3-937f-1d826bfbe8d0",
+                "name": "elasticsearch-master-1-c323b",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280011-elasticsearch-master-1-c323b-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "f087b694-4dd1-4fe1-9f70-a0c2c0824301",
+                        "internalIp": "10.148.131.145",
+                        "managementIp": "10.148.131.145",
+                        "id": "ee793e44-bf5b-4546-bec9-daf7970bd331"
+                    }
+                ],
+                "nodeGroupTemplateId": "c0aadbca-fce4-4f48-a5d4-2de54f38f61e",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "df42f2ea-2dc1-4cee-968c-75b9db49068a",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 18,
+                "ram": 65536,
+                "disk": 128
+            }
+        ],
+        "createdAt": "2025-10-21 17:29:17",
+        "realIp": "10.148.131.55",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "2bdca011-509e-4936-b058-a6c2113be1ef",
+        "name": "es1280026",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "12fe4405-1f86-43c8-96f7-fdd3425f0021",
+                "name": "elasticsearch-master-1-afcfd",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280026-elasticsearch-master-1-afcfd-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "57ddc2b3-f2e6-4f27-b482-2b023747f8df",
+                        "internalIp": "10.148.128.168",
+                        "managementIp": "10.148.128.168",
+                        "id": "58475ad8-7fdd-4f8d-abec-81acb446d674"
+                    }
+                ],
+                "nodeGroupTemplateId": "558b76f8-21d7-4ff3-9d3c-3328e176c732",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "74139885-a8a7-491f-8cb2-54c71da56c4a",
+                "name": "elasticsearch-master-2-aed9f",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280026-elasticsearch-master-2-aed9f-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "6a15c820-a9bc-4a48-a4e8-82a532bc76f9",
+                        "internalIp": "10.148.128.169",
+                        "managementIp": "10.148.128.169",
+                        "id": "6212ab42-57b2-452a-8998-e2553be68419"
+                    }
+                ],
+                "nodeGroupTemplateId": "2ea52bec-311b-413d-94db-62754d10fdc9",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "a0d4e739-130c-4494-b541-b64a480b1254",
+                "name": "elasticsearch-core-1-f49f7",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280026-elasticsearch-core-1-f49f7-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "170a1964-fa58-4188-ba2a-7cbbc551a50e",
+                        "internalIp": "10.148.128.170",
+                        "managementIp": "10.148.128.170",
+                        "id": "ddefa844-d891-490a-908e-a56f738d2887"
+                    }
+                ],
+                "nodeGroupTemplateId": "f73ed869-9d74-40e2-bfc9-79157b72f2c1",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 11:27:01",
+        "realIp": "10.148.128.248",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "3b47ca9a-a52a-4f88-893e-e534ea237ef5",
+        "name": "es1280025",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "928fb397-4e91-46b1-bc97-c5118da89c04",
+                "name": "elasticsearch-master-1-0d3c3",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280025-elasticsearch-master-1-0d3c3-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "db15cba2-1a6c-413c-aac5-b3afdee2fba5",
+                        "internalIp": "10.148.128.153",
+                        "managementIp": "10.148.128.153",
+                        "id": "01643a42-6e3e-4306-a4fe-070d199d0bbe"
+                    }
+                ],
+                "nodeGroupTemplateId": "80a488cd-5c05-4d0c-9dbb-d4d86962a99f",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            },
+            {
+                "id": "5c3948b8-e901-4b2a-89af-1d1d01819351",
+                "name": "elasticsearch-master-2-d341f",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280025-elasticsearch-master-2-d341f-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "78f52293-f34c-4cc1-824f-3d971e77cb5c",
+                        "internalIp": "10.148.128.154",
+                        "managementIp": "10.148.128.154",
+                        "id": "a1c0b290-48eb-40c3-b3a3-cd3f097d7dea"
+                    }
+                ],
+                "nodeGroupTemplateId": "a9e9f49a-c719-4b84-b1c9-665966aba261",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            },
+            {
+                "id": "6db967cd-d3a2-40f8-a6a2-7ca01c0ba9f7",
+                "name": "elasticsearch-core-1-cfc3c",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280025-elasticsearch-core-1-cfc3c-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "210629c7-0026-48e1-be97-4cfdd0f7319a",
+                        "internalIp": "10.148.128.155",
+                        "managementIp": "10.148.128.155",
+                        "id": "1cd14780-bd7f-4880-991d-356e838dcf76"
+                    }
+                ],
+                "nodeGroupTemplateId": "bb885138-4d86-43c5-859d-39c4d01adda9",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            }
+        ],
+        "createdAt": "2025-09-12 11:11:09",
+        "realIp": "10.148.128.243",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "f7a7f139-ada1-4f87-8141-c726c781b226",
+        "name": "es1280024",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "b5a3ad33-4df7-48a4-b4dc-d68f54623029",
+                "name": "elasticsearch-master-1-73a23",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280024-elasticsearch-master-1-73a23-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "cdad4a99-3561-4399-b1cb-2892a97a5390",
+                        "internalIp": "10.148.128.150",
+                        "managementIp": "10.148.128.150",
+                        "id": "60d21b62-51e4-4982-ad57-e6e23f160f65"
+                    }
+                ],
+                "nodeGroupTemplateId": "005ebeab-47d8-4c08-91dc-340680ef10c3",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            },
+            {
+                "id": "18cb0a37-fc64-457a-9cc3-277783699322",
+                "name": "elasticsearch-master-2-d5d2e",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280024-elasticsearch-master-2-d5d2e-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "e6f82c2d-f276-42c8-93cb-07c04e8a654b",
+                        "internalIp": "10.148.128.151",
+                        "managementIp": "10.148.128.151",
+                        "id": "0bf690b4-5c2e-4abd-9b65-1b02a2275395"
+                    }
+                ],
+                "nodeGroupTemplateId": "06d17f67-0ea3-48da-a6d9-d4ced0e34fe2",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            },
+            {
+                "id": "329e28e4-93fa-453f-bde7-060b9e910382",
+                "name": "elasticsearch-core-1-5f50b",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280024-elasticsearch-core-1-5f50b-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "9ce1ba0d-e0a8-42b5-8d78-70357fd26c1c",
+                        "internalIp": "10.148.128.152",
+                        "managementIp": "10.148.128.152",
+                        "id": "49cb37a0-2b57-4aaa-bd9b-3deaccdde092"
+                    }
+                ],
+                "nodeGroupTemplateId": "ca35570a-e54a-4832-81fe-f3ec22969ece",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            }
+        ],
+        "createdAt": "2025-09-12 11:06:28",
+        "realIp": "10.148.128.242",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "cee50abe-62a8-404a-b117-9f19385ae4f8",
+        "name": "es1280023",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "328bdd3c-3266-4dcc-9201-ccff4530c4f6",
+                "name": "elasticsearch-master-1-798cd",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280023-elasticsearch-master-1-798cd-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "f2a746a3-b0aa-486b-8787-bcbe6b6079cb",
+                        "internalIp": "10.148.128.147",
+                        "managementIp": "10.148.128.147",
+                        "id": "56856c14-afe4-4679-8860-71b13b99c6d0"
+                    }
+                ],
+                "nodeGroupTemplateId": "5d9e0889-fd4a-4848-b4f6-9b89dc80feb3",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            },
+            {
+                "id": "8724931e-7c8e-4a32-9f6e-567b404836ae",
+                "name": "elasticsearch-master-2-14e3d",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280023-elasticsearch-master-2-14e3d-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "a3c4fecc-4298-45b3-91b2-0407a086d9ca",
+                        "internalIp": "10.148.128.148",
+                        "managementIp": "10.148.128.148",
+                        "id": "e3f20371-b726-44c6-a2ce-1a4d64dc84df"
+                    }
+                ],
+                "nodeGroupTemplateId": "93e58ba1-38aa-42f3-8526-e6ba86770c5c",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            },
+            {
+                "id": "ede4a185-669c-4f5e-b160-7a2cf02c0c5f",
+                "name": "elasticsearch-core-1-e0da5",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280023-elasticsearch-core-1-e0da5-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "7778f7d9-15e4-4e9e-b616-b56c0ee41e16",
+                        "internalIp": "10.148.128.149",
+                        "managementIp": "10.148.128.149",
+                        "id": "c94b8331-1958-4121-931f-2327384f4a80"
+                    }
+                ],
+                "nodeGroupTemplateId": "fe751c61-cecd-49ab-8eb3-34cc2527fd2a",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            }
+        ],
+        "createdAt": "2025-09-12 11:01:08",
+        "realIp": "10.148.128.241",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "50e5a087-d86c-4504-83cb-ecc808320b32",
+        "name": "es1280022",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "b19a725d-978d-4b85-9002-af273e85405b",
+                "name": "elasticsearch-core-1-2bb4b",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280022-elasticsearch-core-1-2bb4b-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "84b449c4-ea23-4a4b-9e56-52d26e7c232c",
+                        "internalIp": "10.148.128.146",
+                        "managementIp": "10.148.128.146",
+                        "id": "9fd899a3-0436-4d79-98c0-15b276a39e3a"
+                    }
+                ],
+                "nodeGroupTemplateId": "3477981a-954a-45c0-b922-7e33070c8c17",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            },
+            {
+                "id": "c5f47f96-e7d8-42fb-9bff-7ba75d79ef7f",
+                "name": "elasticsearch-master-1-88423",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280022-elasticsearch-master-1-88423-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "4ca1a96d-f5fc-4329-8b9c-d08ada57146c",
+                        "internalIp": "10.148.128.144",
+                        "managementIp": "10.148.128.144",
+                        "id": "94ef22e7-8ebc-4994-8dab-a15bc0dafeb8"
+                    }
+                ],
+                "nodeGroupTemplateId": "8c474f00-52f1-46dc-ae51-29b82ffe4766",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            },
+            {
+                "id": "659ee317-f1e9-4905-ba8f-287f8132bddf",
+                "name": "elasticsearch-master-2-e3a0c",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280022-elasticsearch-master-2-e3a0c-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "6ff7d669-8ca9-41c4-8bb9-fb9b4c5cadc6",
+                        "internalIp": "10.148.128.145",
+                        "managementIp": "10.148.128.145",
+                        "id": "7509f93c-360a-4751-8ff7-835538fefd43"
+                    }
+                ],
+                "nodeGroupTemplateId": "ba0a4b58-aa2a-48ac-aebe-2bc14ec510f5",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "c5741334-6b6f-4390-b191-8005cf133b37",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 7,
+                "ram": 16384,
+                "disk": 500
+            }
+        ],
+        "createdAt": "2025-09-12 10:56:09",
+        "realIp": "10.148.128.240",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "2d78ccc3-66f5-4611-9ce8-47e8358b9419",
+        "name": "es1280021",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "2f305519-84ef-4957-9178-0e48ea32f912",
+                "name": "elasticsearch-master-1-9340f",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280021-elasticsearch-master-1-9340f-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "cbc6f015-46bc-4db0-b617-64fcbb16c6ab",
+                        "internalIp": "10.148.128.141",
+                        "managementIp": "10.148.128.141",
+                        "id": "6b1778dc-952a-4483-86d1-f3c402f9ba5e"
+                    }
+                ],
+                "nodeGroupTemplateId": "f6f51ded-815f-43f4-861f-dcb1b530de15",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "701026d7-58d8-4c07-95e6-f7e99186db7c",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "b894ea83-03d4-4826-848e-9242facd02e5",
+                "name": "elasticsearch-master-2-8b060",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280021-elasticsearch-master-2-8b060-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "30a85e47-ef0f-40b8-b9f2-c752209648e3",
+                        "internalIp": "10.148.128.142",
+                        "managementIp": "10.148.128.142",
+                        "id": "fd6fb91f-082d-45f7-84ae-18964ba6f09f"
+                    }
+                ],
+                "nodeGroupTemplateId": "83372c68-612d-488b-a97e-879a487f3249",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "701026d7-58d8-4c07-95e6-f7e99186db7c",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "0f2f0d27-b97d-44ef-be91-116ca20cce4e",
+                "name": "elasticsearch-core-1-37036",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280021-elasticsearch-core-1-37036-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "4d011ab8-081c-4833-8e75-266627098da8",
+                        "internalIp": "10.148.128.143",
+                        "managementIp": "10.148.128.143",
+                        "id": "0ac0d9b6-6976-477c-aff5-0f26e3eb832d"
+                    }
+                ],
+                "nodeGroupTemplateId": "d2f1775e-a034-498e-8c04-fea6d1b54b89",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "701026d7-58d8-4c07-95e6-f7e99186db7c",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 15360,
+                "disk": 300
+            }
+        ],
+        "createdAt": "2025-09-12 10:48:26",
+        "realIp": "10.148.128.239",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "d36ff515-65a1-4290-b0bd-0ec6804d558f",
+        "name": "es1280020",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "b2f09b0d-cf07-4ba5-9c3a-44c291fb89a1",
+                "name": "elasticsearch-master-1-af19f",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280020-elasticsearch-master-1-af19f-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "064b3c89-b1f6-4faa-ab24-1ced08e31055",
+                        "internalIp": "10.148.128.138",
+                        "managementIp": "10.148.128.138",
+                        "id": "28a947f0-8100-4fdc-8259-a37e2df6bf0a"
+                    }
+                ],
+                "nodeGroupTemplateId": "d57b4ec6-e8db-4c59-8623-e9ffc6e6790a",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "701026d7-58d8-4c07-95e6-f7e99186db7c",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "1453fcbf-e35c-4f5f-83a7-c1a28df5571b",
+                "name": "elasticsearch-master-2-ea09d",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280020-elasticsearch-master-2-ea09d-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "4a701517-e315-49aa-ac24-4065c59a0631",
+                        "internalIp": "10.148.128.139",
+                        "managementIp": "10.148.128.139",
+                        "id": "7dd8f579-c18d-474e-8434-6a8429ab640d"
+                    }
+                ],
+                "nodeGroupTemplateId": "5d31f417-c075-439b-bdcd-a29bac87cb70",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "701026d7-58d8-4c07-95e6-f7e99186db7c",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "1cae7cd1-b44d-4201-991f-79631459bd6d",
+                "name": "elasticsearch-core-1-41da2",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280020-elasticsearch-core-1-41da2-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "d778ec01-1869-46af-bb89-99c49797bb8c",
+                        "internalIp": "10.148.128.140",
+                        "managementIp": "10.148.128.140",
+                        "id": "05dd432c-116c-4f57-81df-53d07e15cb10"
+                    }
+                ],
+                "nodeGroupTemplateId": "6d97b510-a1ae-462e-974f-453fe950748c",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "701026d7-58d8-4c07-95e6-f7e99186db7c",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 15360,
+                "disk": 300
+            }
+        ],
+        "createdAt": "2025-09-12 10:44:05",
+        "realIp": "10.148.128.238",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "f2d96279-b5ed-48b3-bb89-4fc5661b9013",
+        "name": "es1280019",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "01708e56-c90e-4365-8cac-18a2804e3b25",
+                "name": "elasticsearch-master-2-68aff",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280019-elasticsearch-master-2-68aff-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "cd1bd504-bbb8-495f-849c-998d0e178a96",
+                        "internalIp": "10.148.128.136",
+                        "managementIp": "10.148.128.136",
+                        "id": "54fc3e0d-ad8e-4638-b792-ff2552e75abf"
+                    }
+                ],
+                "nodeGroupTemplateId": "8cc28909-bda8-402a-9185-338ca87b7d79",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7fd29119-0bb9-4417-a1b7-5a0cf10d3d28",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "f540e18b-8353-455b-98a2-b6815d4b7652",
+                "name": "elasticsearch-core-1-4e42f",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280019-elasticsearch-core-1-4e42f-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "ede801c4-2e3d-4bf2-9be4-7153c9f0f8d4",
+                        "internalIp": "10.148.128.137",
+                        "managementIp": "10.148.128.137",
+                        "id": "a7c14bae-f4fb-43cc-9a6c-4348ef83b3a5"
+                    }
+                ],
+                "nodeGroupTemplateId": "ea9708d6-7270-461e-9c95-bf5fff06d64f",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7fd29119-0bb9-4417-a1b7-5a0cf10d3d28",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "a5c17b73-ae56-41b3-b2a1-7ca068acdd54",
+                "name": "elasticsearch-master-1-03e1a",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280019-elasticsearch-master-1-03e1a-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "64a131b0-b4fe-4b70-927c-a71aeb6e0138",
+                        "internalIp": "10.148.128.135",
+                        "managementIp": "10.148.128.135",
+                        "id": "558bf559-5f1d-4b7f-a7c7-c90b233864d5"
+                    }
+                ],
+                "nodeGroupTemplateId": "45aa1ad7-c83d-4b50-b85f-cd6df1a84174",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7fd29119-0bb9-4417-a1b7-5a0cf10d3d28",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 15360,
+                "disk": 300
+            }
+        ],
+        "createdAt": "2025-09-12 10:38:53",
+        "realIp": "10.148.128.237",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "a337bf82-2dfc-43b5-b747-e980991cb38b",
+        "name": "es1280018",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "18649ef9-5a11-47f6-8984-5978d0899666",
+                "name": "elasticsearch-master-1-72615",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280018-elasticsearch-master-1-72615-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "dd7a1b22-1c90-4c6c-a3bc-641c84ff526d",
+                        "internalIp": "10.148.128.132",
+                        "managementIp": "10.148.128.132",
+                        "id": "7752d411-e564-4dc5-97ae-2ca987e49ab6"
+                    }
+                ],
+                "nodeGroupTemplateId": "fc92452f-afe0-4e3c-b413-ca24a848d7f0",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7fd29119-0bb9-4417-a1b7-5a0cf10d3d28",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "660fe280-0cf1-43d2-a7fd-2cc9a5156b56",
+                "name": "elasticsearch-master-2-e9a10",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280018-elasticsearch-master-2-e9a10-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "6c17862b-7f55-4f62-a2b6-6fa0b6ea0408",
+                        "internalIp": "10.148.128.133",
+                        "managementIp": "10.148.128.133",
+                        "id": "c56d427d-2ec3-47ae-b7b7-597e07ba22f6"
+                    }
+                ],
+                "nodeGroupTemplateId": "f2abba58-aeb7-4d17-8b3d-428aeb58a4ff",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7fd29119-0bb9-4417-a1b7-5a0cf10d3d28",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "03f2d782-b57f-4573-ad92-f2445f643c1c",
+                "name": "elasticsearch-core-1-49367",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280018-elasticsearch-core-1-49367-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "aafde067-7e60-4e58-8cc9-363afde1a2cf",
+                        "internalIp": "10.148.128.134",
+                        "managementIp": "10.148.128.134",
+                        "id": "6e71472a-ee33-4f66-b838-ad42a67892e9"
+                    }
+                ],
+                "nodeGroupTemplateId": "58b31317-5152-4c85-aeae-5a47314771fd",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7fd29119-0bb9-4417-a1b7-5a0cf10d3d28",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 15360,
+                "disk": 300
+            }
+        ],
+        "createdAt": "2025-09-12 10:33:59",
+        "realIp": "10.148.128.236",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "2c6b2c02-519c-4a75-b5e1-65e625b2acbe",
+        "name": "es1280017",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "6cceee15-ecec-473e-a16e-7b36baf4c84b",
+                "name": "elasticsearch-master-1-827eb",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280017-elasticsearch-master-1-827eb-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "26798d02-e921-45f3-828e-7b699ac22eb8",
+                        "internalIp": "10.148.128.129",
+                        "managementIp": "10.148.128.129",
+                        "id": "521b3f05-fd36-4f83-ac8a-625336e13d71"
+                    }
+                ],
+                "nodeGroupTemplateId": "67f29335-b888-49c9-bacf-5824be1b3aa1",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7fd29119-0bb9-4417-a1b7-5a0cf10d3d28",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "8a061232-9e38-4f34-bee3-67a10859be2b",
+                "name": "elasticsearch-master-2-0067c",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280017-elasticsearch-master-2-0067c-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "ead04e04-9ad1-447e-a0fa-fd5e5aa388d0",
+                        "internalIp": "10.148.128.130",
+                        "managementIp": "10.148.128.130",
+                        "id": "6aea0283-2009-4b4a-864c-612f8b0af6a3"
+                    }
+                ],
+                "nodeGroupTemplateId": "608f30aa-6aec-4c8b-9571-9091d7a780b8",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7fd29119-0bb9-4417-a1b7-5a0cf10d3d28",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 15360,
+                "disk": 300
+            },
+            {
+                "id": "71244f7d-f3ce-4040-8e32-0ac0949212ca",
+                "name": "elasticsearch-core-1-f595a",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280017-elasticsearch-core-1-f595a-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "d4e68eb5-e035-4130-8150-13fa87d7bc75",
+                        "internalIp": "10.148.128.131",
+                        "managementIp": "10.148.128.131",
+                        "id": "bb0e4d8c-fdc5-45d0-8409-3d76421a000a"
+                    }
+                ],
+                "nodeGroupTemplateId": "9edd38c2-6267-420a-98a5-c7219b02f2da",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7fd29119-0bb9-4417-a1b7-5a0cf10d3d28",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 15360,
+                "disk": 300
+            }
+        ],
+        "createdAt": "2025-09-12 10:29:35",
+        "realIp": "10.148.128.235",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "24045d0d-b54b-4685-b1ef-3962c1936e68",
+        "name": "es1280016",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": false,
+        "cloudDiskCapacity": null,
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "8d38da4e-a774-49b3-a63d-4930248ce143",
+                "name": "elasticsearch-master-1-ebe05",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280016-elasticsearch-master-1-ebe05-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "6baa4efc-8a1c-4a5e-9c13-6c7d13e72c70",
+                        "internalIp": "10.148.128.126",
+                        "managementIp": "10.148.128.126",
+                        "id": "b67874a9-5576-48ca-92c2-f4ab2432b9d3"
+                    }
+                ],
+                "nodeGroupTemplateId": "55d50f7a-f54a-44c4-ae0e-89ef818cbb59",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "20bac2f0-a5a1-4a3e-939b-078dbb6bdd74",
+                "name": "elasticsearch-master-2-6eaa9",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280016-elasticsearch-master-2-6eaa9-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "9f46c5ff-54f8-42c5-9455-84f379d97369",
+                        "internalIp": "10.148.128.127",
+                        "managementIp": "10.148.128.127",
+                        "id": "a06acaef-705c-47ad-adc2-1cb70a0dbe88"
+                    }
+                ],
+                "nodeGroupTemplateId": "97173901-354e-4397-b309-4692594ffe5d",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "308d0d14-4b93-457d-aece-5f1b7503dafc",
+                "name": "elasticsearch-core-1-dd57f",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280016-elasticsearch-core-1-dd57f-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "d68858b3-4385-4df9-a13a-93e6e83c629b",
+                        "internalIp": "10.148.128.128",
+                        "managementIp": "10.148.128.128",
+                        "id": "987123bb-630f-44a8-b298-e17924cf420d"
+                    }
+                ],
+                "nodeGroupTemplateId": "b08a1ff8-6cca-45ff-a763-b9ec6a259cbc",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 10:19:17",
+        "realIp": "10.148.128.234",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "21f4d905-3f30-43c7-9ada-075974770f36",
+        "name": "es1280015",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "f80be0c7-7829-40db-a512-73f069ad7bb7",
+                "name": "elasticsearch-master-1-8cff4",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280015-elasticsearch-master-1-8cff4-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "70dabab7-e2d6-4535-9248-53ffae1e7ca8",
+                        "internalIp": "10.148.128.123",
+                        "managementIp": "10.148.128.123",
+                        "id": "f2c4fa48-c715-4eca-aa64-25b4e214ee9c"
+                    }
+                ],
+                "nodeGroupTemplateId": "c62e70cb-3644-4477-915b-69d469c2916f",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "f995a54b-6fca-4054-9546-671b2e981b90",
+                "name": "elasticsearch-master-2-691d3",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280015-elasticsearch-master-2-691d3-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "fb7faf08-30d7-4129-a8e0-f879f19b48cb",
+                        "internalIp": "10.148.128.124",
+                        "managementIp": "10.148.128.124",
+                        "id": "9c22c17f-65e5-484a-b475-f25457de6d8e"
+                    }
+                ],
+                "nodeGroupTemplateId": "1bea39ee-6444-4162-a00e-bfba2243e419",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "99ef67fb-84ec-4381-9812-068992544529",
+                "name": "elasticsearch-core-1-1bd6c",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280015-elasticsearch-core-1-1bd6c-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "e42ebf7d-d0b4-40ce-bfd9-fbc168643da3",
+                        "internalIp": "10.148.128.125",
+                        "managementIp": "10.148.128.125",
+                        "id": "27136a8f-a96c-460f-b456-e16659af82e5"
+                    }
+                ],
+                "nodeGroupTemplateId": "9671fe3f-6443-457f-8e48-968356222306",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 10:14:59",
+        "realIp": "10.148.128.233",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "e9d1047c-f5e1-48cd-a6fc-c61216cad4cb",
+        "name": "es1280014",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "12135455-4a36-451e-8995-bd809c512608",
+                "name": "elasticsearch-master-2-fa839",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280014-elasticsearch-master-2-fa839-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "acd091f8-2652-440f-9124-3afea5c3c07f",
+                        "internalIp": "10.148.128.121",
+                        "managementIp": "10.148.128.121",
+                        "id": "4e9222d9-75eb-41d2-8386-00dc5f329188"
+                    }
+                ],
+                "nodeGroupTemplateId": "1bbfec9a-c80f-4529-a48e-ef92789628d9",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "72681a20-f6f8-4586-830a-ca2485a8778c",
+                "name": "elasticsearch-core-1-0d2e6",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280014-elasticsearch-core-1-0d2e6-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "9d6d976a-a550-4c2b-b5b1-eaee9054ea1d",
+                        "internalIp": "10.148.128.122",
+                        "managementIp": "10.148.128.122",
+                        "id": "c9946ef5-bc14-48c2-ba1a-996004c30fff"
+                    }
+                ],
+                "nodeGroupTemplateId": "871e1813-efaf-4724-8e4b-2a1293360dd0",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "b6c2470f-d185-4617-8879-e4c8bbd55995",
+                "name": "elasticsearch-master-1-f6cdc",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280014-elasticsearch-master-1-f6cdc-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "cf728a3f-83f2-42fc-83e5-024a56451c2b",
+                        "internalIp": "10.148.128.120",
+                        "managementIp": "10.148.128.120",
+                        "id": "fd3288ec-e3e1-467d-9451-d21f701702b4"
+                    }
+                ],
+                "nodeGroupTemplateId": "8ee163c5-92fd-409b-9a6d-5631af3d41d4",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 10:10:40",
+        "realIp": "10.148.128.232",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "f7bf9d0a-b896-4105-8dc9-a8617dc26035",
+        "name": "es1280013",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "568c079e-c7f0-46b0-855f-e289539a1d3b",
+                "name": "elasticsearch-master-2-42a5c",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280013-elasticsearch-master-2-42a5c-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "3ee1d44a-4b6d-403f-b4f0-a045cc2a0b14",
+                        "internalIp": "10.148.128.118",
+                        "managementIp": "10.148.128.118",
+                        "id": "d81ab391-b4dc-467e-aa2b-7b32394e965d"
+                    }
+                ],
+                "nodeGroupTemplateId": "e5714e34-f026-44ae-a358-ad78185d7f56",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "8b54c9e5-8235-447e-9134-4ee1190609ba",
+                "name": "elasticsearch-core-1-4909a",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280013-elasticsearch-core-1-4909a-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "99787f6e-4359-463c-a76f-6ce7f9ef1af7",
+                        "internalIp": "10.148.128.119",
+                        "managementIp": "10.148.128.119",
+                        "id": "67af4d35-0602-4233-9c8a-f247a89f0775"
+                    }
+                ],
+                "nodeGroupTemplateId": "c5800907-a21c-410e-b63b-745033547500",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "d907099e-368f-4a84-b23c-f784f29e69e4",
+                "name": "elasticsearch-master-1-cacdc",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280013-elasticsearch-master-1-cacdc-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "fba77ce8-663a-4a23-bda8-09447b2249d6",
+                        "internalIp": "10.148.128.117",
+                        "managementIp": "10.148.128.117",
+                        "id": "6b7b7d63-c7d1-483f-8838-1e9c547ae026"
+                    }
+                ],
+                "nodeGroupTemplateId": "515f7cb3-cd6c-4215-9212-9d27685460dd",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 10:06:29",
+        "realIp": "10.148.128.231",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "f95415e2-10d9-41cf-a444-85b7e99b5afc",
+        "name": "es1280012",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "370ced5b-c64f-4f26-aabe-dbf9504a461c",
+                "name": "elasticsearch-master-1-9a5db",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280012-elasticsearch-master-1-9a5db-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "70279dbc-b4ac-450a-95de-fc6d66bc8200",
+                        "internalIp": "10.148.128.114",
+                        "managementIp": "10.148.128.114",
+                        "id": "d2c47a0d-80b0-457e-96c8-1db34494abd2"
+                    }
+                ],
+                "nodeGroupTemplateId": "1819b382-2d3f-40eb-a325-9196ff865114",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "f544b39d-9a2a-49d6-b76b-c1d824560a96",
+                "name": "elasticsearch-master-2-8bd7a",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280012-elasticsearch-master-2-8bd7a-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "db6d6382-ef5c-4cf6-9c1b-448f12ecde5e",
+                        "internalIp": "10.148.128.115",
+                        "managementIp": "10.148.128.115",
+                        "id": "60d79623-8dc3-4336-b772-48280d88fd0c"
+                    }
+                ],
+                "nodeGroupTemplateId": "5a96faca-c6a9-4693-a671-3e92a03689ee",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "0fff33b0-6ad1-4476-bf79-66261e6d02fa",
+                "name": "elasticsearch-core-1-f0c1a",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280012-elasticsearch-core-1-f0c1a-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "ba682530-826f-4406-bdb6-2f9b7e88ac28",
+                        "internalIp": "10.148.128.116",
+                        "managementIp": "10.148.128.116",
+                        "id": "953152e2-6953-487f-afdd-a56494ee7f56"
+                    }
+                ],
+                "nodeGroupTemplateId": "59f8e1d9-e07b-4f3b-8655-9b3eb5374295",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "7a44b5f8-255d-4bf8-ba6e-8e68cf9afeda",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 4,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 10:01:33",
+        "realIp": "10.148.128.230",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "9f5f3ed1-6eb9-4c98-bc2c-b7f01e900bb8",
+        "name": "es1280010",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "42e73bd5-f2c6-489d-90ee-d60296c03ca6",
+                "name": "elasticsearch-master-1-0a88c",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280010-elasticsearch-master-1-0a88c-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "202a9c7c-0560-46e4-9b31-8ce0beb00bb6",
+                        "internalIp": "10.148.128.108",
+                        "managementIp": "10.148.128.108",
+                        "id": "149b5e48-9ce1-42bc-a731-f951f22b2e56"
+                    }
+                ],
+                "nodeGroupTemplateId": "1dbfc34e-ebde-40be-9ee7-8830947156a7",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "3737fadb-9cd3-456a-ae40-231816ddfb7b",
+                "name": "elasticsearch-master-2-463aa",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280010-elasticsearch-master-2-463aa-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "84528ff3-d876-4f4d-b41d-983895114408",
+                        "internalIp": "10.148.128.109",
+                        "managementIp": "10.148.128.109",
+                        "id": "1f851530-baf9-4ab1-b13a-a520b04226e1"
+                    }
+                ],
+                "nodeGroupTemplateId": "4639b59f-9e86-459b-8d72-4cd46436e588",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "5a2b7fd8-6b09-4bf5-8f95-510107ca2247",
+                "name": "elasticsearch-core-1-8fdc2",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280010-elasticsearch-core-1-8fdc2-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "03457d0a-1676-4f97-b324-0f0497fd949c",
+                        "internalIp": "10.148.128.110",
+                        "managementIp": "10.148.128.110",
+                        "id": "57eb9d03-aba2-4058-bb57-c08e78aa8e1c"
+                    }
+                ],
+                "nodeGroupTemplateId": "7d315ac7-f03b-4472-92e1-055610727471",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 09:53:10",
+        "realIp": "10.148.128.228",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "5e2f972b-d7b3-4dd1-bbf4-3b1213d62443",
+        "name": "es1280009",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": false,
+        "cloudDiskCapacity": null,
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "b5265410-c748-46c8-bddb-21965ba8cf63",
+                "name": "elasticsearch-master-2-f647d",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280009-elasticsearch-master-2-f647d-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "2e786cca-20cf-4ce3-b61c-801878c59ae2",
+                        "internalIp": "10.148.128.106",
+                        "managementIp": "10.148.128.106",
+                        "id": "16a92726-5a2b-47c2-940c-e03af3e6aadd"
+                    }
+                ],
+                "nodeGroupTemplateId": "38e0f21c-ee1c-4d95-b47a-0a638d269073",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "5c160bdb-4dd1-453b-92bd-e4a9b06f641e",
+                "name": "elasticsearch-core-1-eb2cd",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280009-elasticsearch-core-1-eb2cd-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "f1ff1399-7e73-4b77-98d1-e52e4f0772ef",
+                        "internalIp": "10.148.128.107",
+                        "managementIp": "10.148.128.107",
+                        "id": "dd0caccd-ed55-498b-a955-e96be86cca89"
+                    }
+                ],
+                "nodeGroupTemplateId": "1792a48a-4143-4ace-b6b4-77248d618854",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "61ffa1a3-7146-41f9-9acf-0c59fc1c6b1e",
+                "name": "elasticsearch-master-1-fa599",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280009-elasticsearch-master-1-fa599-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "20122154-66c5-4b91-9d4c-2bf259a1db29",
+                        "internalIp": "10.148.128.105",
+                        "managementIp": "10.148.128.105",
+                        "id": "377bfd9d-e041-4295-8d99-ed177e80ac4b"
+                    }
+                ],
+                "nodeGroupTemplateId": "c6ed40ee-f7f6-4915-bb4f-29812dd374df",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 09:49:28",
+        "realIp": "10.148.128.227",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "1bc6edef-0bd4-4ea8-aa7b-aeaa7a28c35f",
+        "name": "es1280008",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": false,
+        "cloudDiskCapacity": null,
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "43e63ed3-bc4c-48c0-9599-ceb6205323a6",
+                "name": "elasticsearch-master-1-96714",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280008-elasticsearch-master-1-96714-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "ea6d503b-37bf-47f7-a959-b9045d7fc967",
+                        "internalIp": "10.148.128.102",
+                        "managementIp": "10.148.128.102",
+                        "id": "88ba449b-72ef-4123-a620-5ae7c3526827"
+                    }
+                ],
+                "nodeGroupTemplateId": "d8f02066-7f9b-449c-960f-74e86b6c161f",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "778a35fe-b621-40a1-beb1-12cdfe56c867",
+                "name": "elasticsearch-master-2-9bea4",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280008-elasticsearch-master-2-9bea4-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "e786e917-27af-4740-900a-2f5ccb764bcc",
+                        "internalIp": "10.148.128.103",
+                        "managementIp": "10.148.128.103",
+                        "id": "0d88c0a9-b348-44ce-8006-c6200ad8e091"
+                    }
+                ],
+                "nodeGroupTemplateId": "7d1f82e1-7cc7-4eb5-9e9c-d1d3c8fdb01b",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "d400e57f-cce7-48a1-8cb0-fe07835a357e",
+                "name": "elasticsearch-core-1-00bef",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280008-elasticsearch-core-1-00bef-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "6ebe55e4-93cb-46a6-9b4d-283d342b96e7",
+                        "internalIp": "10.148.128.104",
+                        "managementIp": "10.148.128.104",
+                        "id": "2ef7089d-a792-47bd-ab88-836f4bbd8fda"
+                    }
+                ],
+                "nodeGroupTemplateId": "0b807577-1d6a-47b6-9519-cff0970885ec",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 09:42:09",
+        "realIp": "10.148.128.226",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "4c82abb7-3291-44c3-bd8e-3fa17f390b60",
+        "name": "es1280007",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "14ac5061-61f5-4970-aa3a-8f615100c402",
+                "name": "elasticsearch-master-1-1462f",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280007-elasticsearch-master-1-1462f-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "20d9be7e-88c8-4cd2-8cf6-337e5d2ea3f6",
+                        "internalIp": "10.148.128.99",
+                        "managementIp": "10.148.128.99",
+                        "id": "4c5e22ff-d906-458a-9b41-d303f39acde8"
+                    }
+                ],
+                "nodeGroupTemplateId": "7da4aaac-2ed1-444f-b4e2-33d10ca90574",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "b72c0102-54e7-4f44-ba87-275d577894e3",
+                "name": "elasticsearch-master-2-008ac",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280007-elasticsearch-master-2-008ac-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "6de2c68d-a27f-41a9-aced-226b40b70a9a",
+                        "internalIp": "10.148.128.100",
+                        "managementIp": "10.148.128.100",
+                        "id": "d5b42633-9663-4cff-80bd-4866390b8f57"
+                    }
+                ],
+                "nodeGroupTemplateId": "d77de3dd-fd37-4480-ab30-11480533ed75",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "68940752-9fa9-4878-a5bd-31b6d5e069d9",
+                "name": "elasticsearch-core-1-a9ce4",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280007-elasticsearch-core-1-a9ce4-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "063be093-a1ac-48b5-844d-3e7ed6d38cd6",
+                        "internalIp": "10.148.128.101",
+                        "managementIp": "10.148.128.101",
+                        "id": "1e4b5e52-83d1-45a0-91ba-53f40dfc1947"
+                    }
+                ],
+                "nodeGroupTemplateId": "313d290c-84ce-4183-9b44-5c59578ad8e7",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 09:37:06",
+        "realIp": "10.148.128.225",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "b6a44cdd-e245-4eca-9026-e6ee8b629b08",
+        "name": "es1280006",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": false,
+        "cloudDiskCapacity": null,
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "233e31b4-8e16-4307-8e75-60292188a877",
+                "name": "elasticsearch-master-2-69a99",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280006-elasticsearch-master-2-69a99-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "2cc3fc73-ba8d-4c63-88f4-7d0f90025850",
+                        "internalIp": "10.148.128.97",
+                        "managementIp": "10.148.128.97",
+                        "id": "bc39079c-894c-4f0f-b5b4-226b519658eb"
+                    }
+                ],
+                "nodeGroupTemplateId": "bbd1ec0f-6885-4aeb-b8f2-efc4f1d6f8ee",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "2a6baf26-6141-4611-b0ac-e63577d4add5",
+                "name": "elasticsearch-core-1-21804",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280006-elasticsearch-core-1-21804-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "8e261efe-c57c-4f89-80d4-ddee875edcd4",
+                        "internalIp": "10.148.128.98",
+                        "managementIp": "10.148.128.98",
+                        "id": "cc620bca-a313-4802-8879-2646bf61b1a3"
+                    }
+                ],
+                "nodeGroupTemplateId": "05d4aa90-8147-487b-bc2d-e9a0fe73edaf",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "e153286c-a4e6-4008-a424-392148b37107",
+                "name": "elasticsearch-master-1-38802",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280006-elasticsearch-master-1-38802-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "ede6348c-c110-48c2-9d5e-a003b012883f",
+                        "internalIp": "10.148.128.96",
+                        "managementIp": "10.148.128.96",
+                        "id": "90e0b2c5-915a-445c-beea-c4d6eed20404"
+                    }
+                ],
+                "nodeGroupTemplateId": "0a40aa93-e71f-4a7a-8a66-190fab17d3c0",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 09:22:38",
+        "realIp": "10.148.128.224",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "12c4d314-bf3f-40fb-b1ba-0bcda67079a0",
+        "name": "es1280005",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": true,
+        "cloudDiskCapacity": "0G",
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "d8726bc2-2866-490b-b59b-48cf6a0a4af7",
+                "name": "elasticsearch-master-1-18f70",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280005-elasticsearch-master-1-18f70-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "6cf1edf8-876b-4a90-8938-e1cfeb166a5c",
+                        "internalIp": "10.148.128.93",
+                        "managementIp": "10.148.128.93",
+                        "id": "0a12e589-0567-42dd-9c02-3fe2c589f9b8"
+                    }
+                ],
+                "nodeGroupTemplateId": "a0cf5af3-d8f7-4ccb-bd51-844a9c18bebe",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "6f162310-d711-435e-9579-c3a0609845af",
+                "name": "elasticsearch-master-2-3e9d9",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280005-elasticsearch-master-2-3e9d9-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "f6a3dbca-0491-4674-9526-72511df4c206",
+                        "internalIp": "10.148.128.94",
+                        "managementIp": "10.148.128.94",
+                        "id": "ceb9a5be-2918-485a-98bd-7bb3e5105901"
+                    }
+                ],
+                "nodeGroupTemplateId": "ee8ef6aa-1184-4054-8361-c1bf30406091",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "d187f86b-1ef2-4389-b163-7b5bda910771",
+                "name": "elasticsearch-core-1-329dd",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280005-elasticsearch-core-1-329dd-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "0c26f3b2-fab6-47f1-b3ce-bfd7dc349916",
+                        "internalIp": "10.148.128.95",
+                        "managementIp": "10.148.128.95",
+                        "id": "d284c85b-4196-4579-9f19-d104af4cb41d"
+                    }
+                ],
+                "nodeGroupTemplateId": "479a2618-ef7b-4837-9fdb-63213b7ddf37",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 09:07:37",
+        "realIp": "10.148.128.223",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "90b04b09-20db-4fe1-8d42-7964ee56f997",
+        "name": "es1280004",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": false,
+        "cloudDiskCapacity": null,
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "4f68ca4c-c455-4cbf-b292-352ee74d3ada",
+                "name": "elasticsearch-master-1-84782",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280004-elasticsearch-master-1-84782-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "e1ebb8d5-2c2e-4ab3-bc61-2d3f921263d1",
+                        "internalIp": "10.148.128.90",
+                        "managementIp": "10.148.128.90",
+                        "id": "5dfc200c-8fc6-4ac2-80db-8e3e13558c2b"
+                    }
+                ],
+                "nodeGroupTemplateId": "0ddda6a7-8977-4d1b-9b66-f8b261737c34",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "33e1f7a0-45c2-42c1-bc4b-6c3c0dd2acff",
+                "name": "elasticsearch-master-2-087bf",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280004-elasticsearch-master-2-087bf-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "c598169f-ee08-4006-ac40-11420c852c60",
+                        "internalIp": "10.148.128.91",
+                        "managementIp": "10.148.128.91",
+                        "id": "402a624e-747d-4cb7-800c-efd3d4018780"
+                    }
+                ],
+                "nodeGroupTemplateId": "26cafb60-1cb0-48d1-beec-02c7195ca47a",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "60ac366e-6f42-4e8f-9497-ca8ad1e39f6e",
+                "name": "elasticsearch-core-1-96464",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280004-elasticsearch-core-1-96464-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "a0992b7c-a5b0-4773-b0f9-241921c0e525",
+                        "internalIp": "10.148.128.92",
+                        "managementIp": "10.148.128.92",
+                        "id": "02a6ca70-abf5-456e-8895-9333d13bd9ae"
+                    }
+                ],
+                "nodeGroupTemplateId": "6468879d-94da-45d3-b5b0-d565c9d7c0f0",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 09:02:54",
+        "realIp": "10.148.128.222",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "bf2e5af4-2c11-4b7c-9e44-20f324a44006",
+        "name": "es1280003",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": false,
+        "cloudDiskCapacity": null,
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "02dbf271-34e4-4caa-ab2b-72afe343a09a",
+                "name": "elasticsearch-master-1-74974",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280003-elasticsearch-master-1-74974-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "5cbc38ce-8f89-4bd5-b68a-0181a18a908e",
+                        "internalIp": "10.148.128.87",
+                        "managementIp": "10.148.128.87",
+                        "id": "4170289a-fedc-4dc5-9e1e-b9270adf403e"
+                    }
+                ],
+                "nodeGroupTemplateId": "38ce37d6-a341-4e67-95ab-f36f77e39875",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "306b3ea0-7d76-48a6-9039-7b0205723153",
+                "name": "elasticsearch-master-2-a232d",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280003-elasticsearch-master-2-a232d-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "d73d057d-2065-47e0-a439-48c70cc0b9b9",
+                        "internalIp": "10.148.128.88",
+                        "managementIp": "10.148.128.88",
+                        "id": "899dc4a6-db75-4475-b66d-acd7eba8fd4e"
+                    }
+                ],
+                "nodeGroupTemplateId": "78b054a3-1821-4dbd-8e59-7ccb44ce7496",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "a39666db-657a-42d5-9033-fc356473d6eb",
+                "name": "elasticsearch-core-1-c4a1a",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es1280003-elasticsearch-core-1-c4a1a-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "82f4ee87-c434-46d2-9629-60d575c55663",
+                        "internalIp": "10.148.128.89",
+                        "managementIp": "10.148.128.89",
+                        "id": "18ca3caa-20f7-4e57-b59c-d217cc0226a0"
+                    }
+                ],
+                "nodeGroupTemplateId": "5b6757ae-713d-4c3b-a946-10a681ae4659",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 08:57:39",
+        "realIp": "10.148.128.221",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "f7c6b0f0-7c01-4ade-b14f-5443210d043c",
+        "name": "es128002",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": false,
+        "cloudDiskCapacity": null,
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "ee6be00a-ec24-460b-bd6c-e342f786e4f0",
+                "name": "elasticsearch-master-1-6e891",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es128002-elasticsearch-master-1-6e891-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "930e30e5-f41b-4abc-9e97-ec01f720a171",
+                        "internalIp": "10.148.128.84",
+                        "managementIp": "10.148.128.84",
+                        "id": "57c44c5f-6a82-4044-8d3b-5f6aa389ea59"
+                    }
+                ],
+                "nodeGroupTemplateId": "3d09a820-10ab-4a45-88aa-f2b464aac9b1",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "d91dd6b4-ac44-4976-8859-b0e571da667e",
+                "name": "elasticsearch-master-2-00218",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es128002-elasticsearch-master-2-00218-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "896bb1c3-478c-4b59-abd3-a26a0c7848f5",
+                        "internalIp": "10.148.128.85",
+                        "managementIp": "10.148.128.85",
+                        "id": "4f5fad02-c7c8-47cc-8731-971b55ffaa07"
+                    }
+                ],
+                "nodeGroupTemplateId": "54c54aa0-ac35-47f6-80a4-870f2bfec316",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "1b3f743e-41d6-44a5-85c5-328a74cfe41c",
+                "name": "elasticsearch-core-1-cae1d",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es128002-elasticsearch-core-1-cae1d-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "a13687b2-3d6f-47c0-833d-69fc375112bd",
+                        "internalIp": "10.148.128.86",
+                        "managementIp": "10.148.128.86",
+                        "id": "ac3cb243-d86f-413c-9ce5-b27b455a0014"
+                    }
+                ],
+                "nodeGroupTemplateId": "8fd5d198-115e-4b71-af74-a0104126cfe3",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 04:56:32",
+        "realIp": "10.148.128.220",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    },
+    {
+        "id": "e16699ba-e97e-453e-bc81-366fd576685d",
+        "name": "es128001",
+        "description": "",
+        "status": "ACTIVE",
+        "statusDescription": "",
+        "nodeCount": 3,
+        "nodeNumber": 3,
+        "availabilityZone": {
+            "id": "f4f24bc9-5c6c-4880-a995-699489491f3d",
+            "labelName": null,
+            "zone": "HLW_HG4_Domain01",
+            "virtType": "CAS",
+            "resourceType": null
+        },
+        "storageAzone": "",
+        "username": "sztzyjy",
+        "tenantId": "f6f67bd69dc54d54b84b2e7497e69e0a",
+        "projectName": "hlw-\u6d77\u5357\u7701\u6559\u80b2\u5385",
+        "mqsVersion": "E7601L02-V500R001B01D021_RC27",
+        "keypair": "dbaas",
+        "neutronManagementNetwork": "b12cadf4-7099-4cc3-b388-4b8a19e490ca",
+        "neutronManagementNetworkName": "hnsjyt-128.0-24",
+        "independentManagementNetwork": "",
+        "independentManagementNetworkName": "",
+        "cloudDiskType": "",
+        "cloudDiskInUse": false,
+        "cloudDiskCapacity": null,
+        "managementNetworkList": [
+            "10.148.128.0/24"
+        ],
+        "independentManagementNetworkList": null,
+        "tenantNetworkId": null,
+        "tenantNetworkName": null,
+        "tenantNetworkList": null,
+        "nodeGroups": [
+            {
+                "id": "d787ead6-f905-4dbc-b842-8f455a64b27a",
+                "name": "elasticsearch-master-1-bd431",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI",
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710",
+                    "KIBANA7102"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es128001-elasticsearch-master-1-bd431-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "6cfab128-a42c-4d34-871d-66416aa5edc7",
+                        "internalIp": "10.148.128.81",
+                        "managementIp": "10.148.128.81",
+                        "id": "72724fac-6e06-47ef-883e-435c684e6792"
+                    }
+                ],
+                "nodeGroupTemplateId": "886e355c-8ea6-40fd-a514-06d94d3b5962",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "db6bc56c-7a7c-41a0-914c-057d8611a1d0",
+                "name": "elasticsearch-master-2-baefa",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "AMBARI_SLAVE",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es128001-elasticsearch-master-2-baefa-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "87209173-8e4a-4d86-829c-a41fbf3df408",
+                        "internalIp": "10.148.128.82",
+                        "managementIp": "10.148.128.82",
+                        "id": "6c527eef-5c50-4df8-8f8b-275ff1338e01"
+                    }
+                ],
+                "nodeGroupTemplateId": "98ad89c0-9223-407b-a93d-aa541b8abfe9",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            },
+            {
+                "id": "45989cf7-3153-48a8-8085-1b05cfbf7cf9",
+                "name": "elasticsearch-core-1-bb4c3",
+                "nodeType": null,
+                "nodeProcesses": [
+                    "AMBARI_AGENT",
+                    "ELASTICSEARCH710"
+                ],
+                "volumeLocalToInstance": null,
+                "availabilityZone": "HLW_HG4_Domain01",
+                "instances": [
+                    {
+                        "instanceName": "es128001-elasticsearch-core-1-bb4c3-0",
+                        "storageDevicesNumber": null,
+                        "createdAt": null,
+                        "updatedAt": null,
+                        "instanceId": "d5dcf3b9-2ec8-43f8-a069-0fd08f621a0a",
+                        "internalIp": "10.148.128.83",
+                        "managementIp": "10.148.128.83",
+                        "id": "bc2d8b52-a352-4acd-8142-05063c6c1223"
+                    }
+                ],
+                "nodeGroupTemplateId": "b35be84c-b482-4771-9da8-8e719fd816e2",
+                "volumesPerNode": null,
+                "securityGroups": null,
+                "volumeMountPrefix": null,
+                "imageId": null,
+                "volumesSize": null,
+                "count": 1,
+                "flavorId": "2ab9156e-04fe-4b17-95d9-911d0df7ab39",
+                "storageTypeId": null,
+                "storagePoolName": null,
+                "cpu": 8,
+                "ram": 16384,
+                "disk": 100
+            }
+        ],
+        "createdAt": "2025-09-12 04:36:11",
+        "realIp": "10.148.128.219",
+        "serviceName": "elasticsearch",
+        "administrator": "admin",
+        "monitorOn": 1,
+        "tag": null,
+        "antiAffinity": false,
+        "imageName": "MQS-NingOS-X86-MQS-1.6",
+        "imageOsType": "NingOS",
+        "imageOsTypeName": null,
+        "frameworkType": "x86",
+        "serviceProperties": {
+            "elk_info": null,
+            "version": {
+                "ELASTICSEARCH": "7.10.2",
+                "KIBANA": "7.10.2"
+            }
+        }
+    }
+]
